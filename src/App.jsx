@@ -10,16 +10,9 @@ function App() {
   return (
     <div className="wrapper">
       <img className="runa" src={runa} alt="runa" />
-      <h1 className="title">Найкращий массаж у всесвіті</h1>
+      {/* <h1 className="title">Найкращий массаж у всесвіті</h1> */}
+      <h1 className="title">Масаж - найкращий прояв любові до себе!</h1>
       <div className="main">
-        <a
-          href="https://t.me/anna_yuriewna"
-          className="linkWrap"
-          target="_blank"
-        >
-          <FaTelegram />
-          <span>Telegram</span>
-        </a>
         <a
           href="https://www.instagram.com/massage_anna.kh"
           className="linkWrap"
@@ -27,6 +20,14 @@ function App() {
         >
           <FaInstagram />
           <span>Instagram</span>
+        </a>
+        <a
+          href="https://t.me/anna_yuriewna"
+          className="linkWrap"
+          target="_blank"
+        >
+          <FaTelegram />
+          <span>Telegram</span>
         </a>
         <a
           href="viber://chat?number=+380732052747"

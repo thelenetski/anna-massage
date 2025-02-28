@@ -11,7 +11,7 @@ function App() {
     <div className="wrapper">
       <img className="runa" src={runa} alt="runa" />
       {/* <h1 className="title">Найкращий массаж у всесвіті</h1> */}
-      <h1 className="title">Масаж - найкращий прояв любові до себе!</h1>
+      {/* <h1 className="title">Масаж - найкращий прояв любові до себе!</h1> */}
       <div className="main">
         <a
           href="https://www.instagram.com/massage_anna.kh"

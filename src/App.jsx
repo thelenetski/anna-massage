@@ -12,15 +12,27 @@ function App() {
       <img className="runa" src={runa} alt="runa" />
       <h1 className="title">Найкращий массаж у всесвіті</h1>
       <div className="main">
-        <a href="#" className="linkWrap">
+        <a
+          href="https://t.me/anna_yuriewna"
+          className="linkWrap"
+          target="_blank"
+        >
           <FaTelegram />
           <span>Telegram</span>
         </a>
-        <a href="#" className="linkWrap">
+        <a
+          href="https://www.instagram.com/massage_anna.kh"
+          className="linkWrap"
+          target="_blank"
+        >
           <FaInstagram />
           <span>Instagram</span>
         </a>
-        <a href="#" className="linkWrap">
+        <a
+          href="viber://chat?number=+380732052747"
+          className="linkWrap"
+          target="_blank"
+        >
           <FaViber />
           <span>Viber</span>
         </a>
@@ -28,12 +40,16 @@ function App() {
           <MdPhone />
           <span>Зателефонувати</span>
         </a> */}
-        <a href="#" className="linkWrap">
+        <a
+          href="https://maps.app.goo.gl/udSc34exGSaXLemo8?g_st=com.google.maps.preview.copy"
+          className="linkWrap"
+          target="_blank"
+        >
           <PiMapPinAreaFill />
           <span>Локація</span>
         </a>
       </div>
-      <a href="#" className="call">
+      <a href="tel:+380732052747" className="call">
         <MdPhone />
       </a>
     </div>

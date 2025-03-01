@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaViber } from "react-icons/fa";
 import { MdPhone } from "react-icons/md";
 import { PiMapPinAreaFill } from "react-icons/pi";
-import { TbReportMoney } from "react-icons/tb";
+import { MdOutlineAttachMoney } from "react-icons/md";
 import { CgClose } from "react-icons/cg";
 import runa from "./assets/runa.png";
 import { useEffect, useRef, useState } from "react";
@@ -87,7 +87,7 @@ function App() {
       </div>
       <div className="actions">
         <button ref={priceRef} onClick={modalHandler} className="price">
-          <TbReportMoney size={30} />
+          <MdOutlineAttachMoney size={30} />
         </button>
         <a href="tel:+380732052747" className="call">
           <MdPhone size={30} />

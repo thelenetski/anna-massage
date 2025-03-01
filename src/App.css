@@ -78,7 +78,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
   background: #15a928;
   color: white;
   border-radius: 50%;
@@ -88,6 +87,12 @@
 .call:focus,
 .price {
   transform: scale(1.1);
+}
+
+.call svg,
+.price svg {
+  width: 30px;
+  height: 30px;
 }
 
 .modalPrice {

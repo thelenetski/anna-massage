@@ -1,7 +1,4 @@
 :root {
-  display: flex;
-  justify-content: center;
-
   font-family: "Montserrat Alternates", Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -22,5 +19,7 @@
 
 body {
   width: 100%;
+  display: flex;
+  justify-content: center;
   margin: 0;
 }

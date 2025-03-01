@@ -1,5 +1,6 @@
 .wrapper {
   width: 100%;
+  min-width: 320px;
   max-width: 375px;
   min-height: 100vh;
   display: flex;
@@ -54,14 +55,6 @@
 .linkWrap:focus {
   transform: scale(1.1);
 }
-
-/* .linkWrap svg {
-  background: linear-gradient(103deg, #ff7838, #ef901a);
-  border-radius: 15px;
-  padding: 15px;
-  color: #000000;
-  box-shadow: 0px 3px 1px #3b14148a;
-} */
 
 .linkWrap span {
   margin-left: 10px;

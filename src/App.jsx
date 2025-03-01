@@ -4,9 +4,20 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaViber } from "react-icons/fa";
 import { MdPhone } from "react-icons/md";
 import { PiMapPinAreaFill } from "react-icons/pi";
+import { PiMoneyWavy } from "react-icons/pi";
+import { CgClose } from "react-icons/cg";
 import runa from "./assets/runa.png";
+import { useState } from "react";
+import clsx from "clsx";
+import Price from "./components/Price/Price";
 
 function App() {
+  const [modalActive, setModalActive] = useState(false);
+
+  const modalHandler = () => {
+    setModalActive(!modalActive);
+  };
+
   return (
     <div className="wrapper">
       <img className="runa" src={runa} alt="runa" />
@@ -50,9 +61,23 @@ function App() {
           <span>Локація</span>
         </a>
       </div>
-      <a href="tel:+380732052747" className="call">
-        <MdPhone />
-      </a>
+      <div className="actions">
+        <button onClick={modalHandler} className="price">
+          <PiMoneyWavy />
+        </button>
+        <a href="tel:+380732052747" className="call">
+          <MdPhone />
+        </a>
+      </div>
+      <div
+        className={clsx("modalPrice", {
+          active: modalActive === true,
+        })}
+      >
+        <CgClose className="close" onClick={modalHandler} />
+        <Price />
+      </div>
+      <div className="modalStock"></div>
     </div>
   );
 }

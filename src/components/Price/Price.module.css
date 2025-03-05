@@ -26,6 +26,7 @@
 .priceBox {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #174e35;
   font-size: 1rem;
@@ -34,11 +35,10 @@
 }
 
 .priceName {
-  width: 50%;
-}
-
-.priceBox p {
-  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 /* .priceBox p:first-child {
@@ -46,7 +46,20 @@
 } */
 
 .prices {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.prices p {
+  text-align: center;
+  width: 50%;
+  margin: 0;
+  padding: 5px 0;
+  background-color: #0000000e;
+  border: 1px solid #ffffff;
 }

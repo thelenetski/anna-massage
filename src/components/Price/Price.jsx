@@ -8,28 +8,31 @@ const Price = () => {
         <p>Вартість</p>
       </div>
       <div className={css.priceBox}>
-        <p>Антицелюлітний:</p>
-        <p>700/год</p>
+        <p>Антицелюлітний медовий/спортивний:</p>
+        <div className={css.prices}>
+          <p>650/45хв</p>
+          <p>750/1год</p>
+          <p>1050/1.5год</p>
+        </div>
       </div>
       <div className={css.priceBox}>
         <p>Загальний класичний:</p>
-        <p>400/год</p>
-      </div>
-      <div className={css.priceBox}>
-        <p>Вакуумний:</p>
-        <p>500/год</p>
-      </div>
-      <div className={css.priceBox}>
-        <p>Медовий:</p>
-        <p>900/год</p>
+        <div className={css.prices}>
+          <p>600/45хв</p>
+          <p>700/1год</p>
+          <p>1000/1.5год</p>
+          <p>1300/2год</p>
+        </div>
       </div>
       <div className={css.priceBox}>
         <p>Дитячий:</p>
-        <p>400/год</p>
+        <div className={css.prices}>
+          <p>500/30хв</p>
+        </div>
       </div>
       <div className={css.priceBox}>
         <p>Нейро-моделюючий іспанський масаж обличчя:</p>
-        <p>1500/год</p>
+        <p>400/30хв</p>
       </div>
     </div>
   );

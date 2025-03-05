@@ -10,57 +10,6 @@
   margin: 0 auto;
 }
 
-.runa {
-  padding-top: 0%;
-  width: 250px;
-  filter: drop-shadow(2px 4px 6px black);
-}
-
-.title {
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  margin: 0 0 5% 0;
-  display: none;
-}
-
-.main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  background: #ffffff17;
-  border-radius: 15px;
-  padding: 10% 0;
-}
-
-.linkWrap {
-  width: 80%;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  padding: 0 5%;
-  font-size: 24px;
-  text-decoration: none;
-  color: #000000;
-
-  background: linear-gradient(103deg, #ff7838, #ef901a);
-  border-radius: 15px;
-  color: #000000;
-  box-shadow: 0px 3px 1px #3b14148a;
-  transition: 0.3s;
-}
-
-.linkWrap:focus {
-  transform: scale(1.1);
-}
-
-.linkWrap span {
-  margin-left: 10px;
-}
-
 .actions {
   display: flex;
   justify-content: space-around;
@@ -86,15 +35,9 @@
 }
 
 .call:focus,
-.price {
+.price:focus {
   transform: scale(1.1);
 }
-
-/* .call svg,
-.price svg {
-  width: 30px;
-  height: 30px;
-} */
 
 .modalPrice {
   width: 0%;

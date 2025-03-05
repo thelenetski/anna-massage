@@ -33,6 +33,10 @@
   border-radius: 5px;
 }
 
+.priceName {
+  width: 50%;
+}
+
 .priceBox p {
   margin: 0;
 }

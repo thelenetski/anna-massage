@@ -44,9 +44,9 @@ function App() {
       <Logo />
       <Main />
       <div className="actions">
-        <button ref={priceRef} onClick={modalHandler} className="price">
+        <a ref={priceRef} onClick={modalHandler} className="price">
           <PiMoneyWavy size={30} />
-        </button>
+        </a>
         <a href="tel:+380732052747" className="call">
           <MdPhone size={30} />
         </a>

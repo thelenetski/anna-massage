@@ -1,10 +1,14 @@
 .priceWrap {
   width: 95%;
+  max-height: 85vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 4%;
-  margin-top: 30px;
+  padding: 0 4%;
+  margin: 15% 0 5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
 }
 
 .priceTitles {
@@ -64,4 +68,14 @@
   font-weight: 500;
   background-color: #edf5ef;
   border: 1px solid #ffffff;
+}
+
+.flower {
+  position: absolute;
+  right: -15%;
+  bottom: 5%;
+  width: 400px;
+  height: 400px;
+  color: #467e5c2e;
+  transform: rotate(-45deg);
 }

@@ -7,6 +7,7 @@ import { PiMapPinAreaFill } from "react-icons/pi";
 function Main() {
   return (
     <div className={css.main}>
+      <h4 className={css.socialTitle}>Соціальні мережі</h4>
       <a
         href="https://www.instagram.com/massage_anna.kh"
         className={css.linkWrap}

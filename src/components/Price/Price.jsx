@@ -8,34 +8,38 @@ const Price = () => {
         <p>Вартість</p>
       </div> */}
       <div className={css.priceBox}>
-        <p className={css.priceName}>Антицелюлітний, медовий, спортивний:</p>
+        <p className={css.priceName} style={{ marginTop: 0 }}>
+          Антицелюлітний, медовий, спортивний:
+        </p>
         <div className={css.prices}>
-          <p>650₴</p>
           <p>45хв</p>
-          <p>750₴</p>
+          <p>650₴</p>
           <p>1год</p>
-          <p>1050₴</p>
+          <p>750₴</p>
           <p>1.5год</p>
+          <p>1050₴</p>
+          <p>2год</p>
+          <p>1350₴</p>
         </div>
       </div>
       <div className={css.priceBox}>
-        <p className={css.priceName}>Загальний класичний:</p>
+        <p className={css.priceName}>Загальний класичний вакуумний:</p>
         <div className={css.prices}>
-          <p>600₴</p>
           <p>45хв</p>
-          <p>700₴</p>
+          <p>600₴</p>
           <p>1год</p>
-          <p>1000₴</p>
+          <p>700₴</p>
           <p>1.5год</p>
-          <p>1300₴</p>
+          <p>1000₴</p>
           <p>2год</p>
+          <p>1300₴</p>
         </div>
       </div>
       <div className={css.priceBox}>
         <p className={css.priceName}>Дитячий:</p>
         <div className={css.prices}>
-          <p>500₴</p>
           <p>30хв</p>
+          <p>500₴</p>
         </div>
       </div>
       <div className={css.priceBox}>
@@ -43,8 +47,10 @@ const Price = () => {
           Нейро-моделюючий іспанський масаж обличчя:
         </p>
         <div className={css.prices}>
-          <p>400₴</p>
           <p>30хв</p>
+          <p>400₴</p>
+          <p>1год</p>
+          <p>750₴</p>
         </div>
       </div>
     </div>

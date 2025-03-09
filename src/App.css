@@ -108,10 +108,10 @@ h4 .hr .hrRight {
 
 .flower {
   position: absolute;
-  right: -5%;
-  bottom: 0;
-  width: 200px;
-  height: 200px;
+  right: -18%;
+  bottom: -10%;
+  width: 300px;
+  height: 300px;
   color: #467e5c1a;
   transform: rotate(-45deg);
   z-index: 1;

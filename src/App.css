@@ -92,7 +92,7 @@ h4 .hr .hrRight {
 
 .active {
   max-width: 375px;
-  height: auto;
+  height: 95%;
   left: 50%;
   opacity: 1;
 }
@@ -114,6 +114,7 @@ h4 .hr .hrRight {
   height: 200px;
   color: #467e5c1a;
   transform: rotate(-45deg);
+  z-index: 1;
 }
 
 @media screen and (min-width: 375px) {

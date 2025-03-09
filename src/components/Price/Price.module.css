@@ -1,6 +1,5 @@
 .priceWrap {
   width: 95%;
-  max-height: 85vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -9,6 +8,7 @@
   overflow-x: hidden;
   overflow-y: scroll;
   position: relative;
+  z-index: 10;
 }
 
 .priceTitles {
@@ -66,16 +66,7 @@
   margin: 0;
   padding: 5px 0;
   font-weight: 500;
-  background-color: #edf5ef;
+  /* background-color: #edf5ef; */
+  background-color: #c7e1cd87;
   border: 1px solid #ffffff;
-}
-
-.flower {
-  position: absolute;
-  right: -15%;
-  bottom: 5%;
-  width: 400px;
-  height: 400px;
-  color: #467e5c2e;
-  transform: rotate(-45deg);
 }

@@ -1,0 +1,22 @@
+.sliderWrap {
+  width: 100%;
+  height: 100%;
+  padding: 0 4% 7% 4% !important;
+  margin: 15% 0 5%;
+  color: #000;
+  z-index: 999;
+  overflow-y: scroll;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: #17553ebd !important;
+}
+
+.massageInfoWrap img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.massageInfoWrap h4 {
+  color: #174e35;
+}

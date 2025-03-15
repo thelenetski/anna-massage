@@ -9,13 +9,17 @@ import Logo from "./components/Logo/Logo";
 import Main from "./components/Main/Main";
 import { GiThreeLeaves } from "react-icons/gi";
 import { PiFlowerLotusThin } from "react-icons/pi";
+import { TiInfoLargeOutline } from "react-icons/ti";
+import Info from "./components/Info/Info";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
+  const [modalType, setModalType] = useState("");
   const modalRef = useRef(null);
   const priceRef = useRef(null);
 
-  const modalHandler = () => {
+  const modalHandler = (type) => {
+    setModalType(type);
     setModalActive(!modalActive);
   };
 
@@ -54,13 +58,20 @@ function App() {
       </h4>
       <Main />
       <div className="actions">
-        <a ref={priceRef} onClick={modalHandler} className="price">
+        <a
+          ref={priceRef}
+          onClick={() => modalHandler("price")}
+          className="price"
+        >
           <PiMoneyWavy size={20} />
           Прайс
         </a>
+        <a ref={priceRef} onClick={() => modalHandler("info")} className="info">
+          <TiInfoLargeOutline size={20} />
+          Інфо
+        </a>
         <a href="tel:+380732052747" className="call">
           <MdPhone size={20} />
-          Подзвонити
         </a>
       </div>
       <div
@@ -70,7 +81,8 @@ function App() {
         })}
       >
         <CgClose className="close" onClick={modalHandler} />
-        <Price />
+        {modalType === "price" && <Price />}
+        {modalType === "info" && <Info />}
         <PiFlowerLotusThin className="flower" />
       </div>
       <div className="modalStock"></div>

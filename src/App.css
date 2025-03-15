@@ -50,8 +50,8 @@ h4 .hr .hrRight {
 }
 
 .call,
-.price {
-  min-width: 40%;
+.price,
+.info {
   height: 50px;
   display: flex;
   justify-content: center;
@@ -66,18 +66,18 @@ h4 .hr .hrRight {
   font-size: 0.8rem;
 }
 
-/* .call:focus,
-.price:focus {
-  transform: scale(1.1);
-} */
+.price,
+.info {
+  min-width: 35%;
+}
 
 .modalPrice {
   width: 90%;
-  height: 50%;
+  height: 95%;
   position: absolute;
   top: 50%;
-  left: -100%;
-  display: flex;
+  left: 50%;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -85,25 +85,32 @@ h4 .hr .hrRight {
   background: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 0px 75px #2a8139;
-  transition: 0.6s cubic-bezier(0.34, 1.2, 0.64, 1);
-  opacity: 0;
+  /* transition: 0.6s cubic-bezier(0.34, 1.2, 0.64, 1); */
   overflow: hidden;
 }
 
 .active {
+  display: flex;
   max-width: 375px;
-  height: 95%;
-  left: 50%;
-  opacity: 1;
+  animation: modalOpen 0.3s ease-in-out;
 }
 
 .close {
   position: absolute;
-  right: 0;
   top: 0;
+  right: 0;
   color: #174e35;
   font-size: 25px;
   margin: 4%;
+}
+
+@keyframes modalOpen {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .flower {
@@ -114,7 +121,6 @@ h4 .hr .hrRight {
   height: 300px;
   color: #467e5c1a;
   transform: rotate(330deg);
-  z-index: 1;
 }
 
 @media screen and (min-width: 375px) {

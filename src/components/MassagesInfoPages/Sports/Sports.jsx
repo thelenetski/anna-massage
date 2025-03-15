@@ -3,7 +3,7 @@ import link from "../../../assets/images/sports.jpg";
 
 const Sports = () => {
   return (
-    <div className={css.massageInfoWradivp}>
+    <div className={css.massageInfoWrap}>
       <h4>Спортивний</h4>
       <p>
         Спортивний масаж — це спеціальна техніка, яка використовується для

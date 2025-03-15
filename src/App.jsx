@@ -10,7 +10,13 @@ import Main from "./components/Main/Main";
 import { GiThreeLeaves } from "react-icons/gi";
 import { PiFlowerLotusThin } from "react-icons/pi";
 import { TiInfoLargeOutline } from "react-icons/ti";
+import { BsChatSquareHeart } from "react-icons/bs";
+import { GrUserFemale } from "react-icons/gr";
 import Info from "./components/Info/Info";
+import { AnimatePresence } from "motion/react";
+import * as motion from "motion/react-client";
+import Reviews from "./components/Reviews/Reviews";
+import About from "./components/About/About";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
@@ -57,7 +63,7 @@ function App() {
         </div>
       </h4>
       <Main />
-      <div className="actions">
+      <div className="actions bg2">
         <a
           ref={priceRef}
           onClick={() => modalHandler("price")}
@@ -74,17 +80,45 @@ function App() {
           <MdPhone size={20} />
         </a>
       </div>
-      <div
-        ref={modalRef}
-        className={clsx("modalPrice", {
-          active: modalActive === true,
-        })}
-      >
-        <CgClose className="close" onClick={modalHandler} />
-        {modalType === "price" && <Price />}
-        {modalType === "info" && <Info />}
-        <PiFlowerLotusThin className="flower" />
+      <div className="actions bg1">
+        <a
+          ref={priceRef}
+          onClick={() => modalHandler("reviews")}
+          className="info"
+        >
+          <BsChatSquareHeart size={20} />
+          Відгуки
+        </a>
+        <a
+          ref={priceRef}
+          onClick={() => modalHandler("about")}
+          className="info"
+        >
+          <GrUserFemale size={20} />
+          Про мене
+        </a>
       </div>
+      <AnimatePresence initial={false}>
+        {modalActive ? (
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0 }}
+            key="box"
+            ref={modalRef}
+            className={clsx("modalPrice", {
+              // active: modalActive === true,
+            })}
+          >
+            <CgClose className="close" onClick={modalHandler} />
+            {modalType === "price" && <Price />}
+            {modalType === "info" && <Info />}
+            {modalType === "reviews" && <Reviews />}
+            {modalType === "about" && <About />}
+            <PiFlowerLotusThin className="flower" />
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
       <div className="modalStock"></div>
     </div>
   );

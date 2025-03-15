@@ -38,6 +38,7 @@
   border-radius: 15px;
   color: #ffffff;
   transition: 0.3s;
+  box-shadow: 2px 2px 10px #0000003d;
 }
 
 .linkWrap:focus {

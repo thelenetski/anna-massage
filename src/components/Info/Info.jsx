@@ -7,6 +7,9 @@ import Vacuum from "../MassagesInfoPages/Vacuum/Vacuum";
 import Honey from "../MassagesInfoPages/Honey/Honey";
 import AntiCellulite from "../MassagesInfoPages/AntiCellulite/AntiCellulite";
 import Spanish from "../MassagesInfoPages/Spanish/Spanish";
+import General from "../MassagesInfoPages/General/General";
+import Children from "../MassagesInfoPages/Children/Children";
+import Sports from "../MassagesInfoPages/Sports/Sports";
 
 const styles = {
   overflowY: "scroll",
@@ -17,10 +20,11 @@ const Info = () => {
   return (
     <>
       <Swiper
-        spaceBetween={20}
+        spaceBetween={40}
         pagination={{
           dynamicBullets: true,
         }}
+        loop={true}
         modules={[Pagination]}
         className={css.sliderWrap}
       >
@@ -35,6 +39,15 @@ const Info = () => {
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <AntiCellulite />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <General />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Children />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Sports />
         </SwiperSlide>
       </Swiper>
     </>

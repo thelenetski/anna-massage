@@ -1,10 +1,10 @@
 import css from "../../Info/Info.module.css";
-import spanish from "../../../assets/images/spanish.jpeg";
+import spanish from "../../../assets/images/spanish.jpg";
 
 const Spanish = () => {
   return (
     <div className={css.massageInfoWrap}>
-      <h4>Іспанський</h4>
+      <h4>Іспанський масаж обличчя</h4>
       <p>
         Уяви собі легкі, хвилеподібні дотики, які огортають твоє обличчя,
         знімають напругу та наповнюють кожну клітинку енергією… Це не просто

@@ -85,6 +85,7 @@ function App() {
           ref={priceRef}
           onClick={() => modalHandler("reviews")}
           className="info"
+          style={{ width: "45%" }}
         >
           <BsChatSquareHeart size={20} />
           Відгуки
@@ -93,6 +94,7 @@ function App() {
           ref={priceRef}
           onClick={() => modalHandler("about")}
           className="info"
+          style={{ width: "45%" }}
         >
           <GrUserFemale size={20} />
           Про мене

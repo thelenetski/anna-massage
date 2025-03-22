@@ -27,6 +27,15 @@ h4 {
   margin: 0;
 }
 
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  transform: scaleX(1.05);
+}
+
 .hr {
   width: 100%;
   display: flex;
@@ -126,5 +135,19 @@ h4 {
 @media screen and (min-width: 375px) {
   .wrapper {
     min-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modalPrice {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .modalPrice {
+    width: 50%;
+    left: 25%;
   }
 }

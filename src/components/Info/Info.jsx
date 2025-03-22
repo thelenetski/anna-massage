@@ -10,6 +10,7 @@ import Spanish from "../MassagesInfoPages/Spanish/Spanish";
 import General from "../MassagesInfoPages/General/General";
 import Children from "../MassagesInfoPages/Children/Children";
 import Sports from "../MassagesInfoPages/Sports/Sports";
+import Fourhands from "../MassagesInfoPages/Fourhands/Fourhands";
 
 const styles = {
   overflowY: "scroll",
@@ -29,6 +30,18 @@ const Info = () => {
         className={css.sliderWrap}
       >
         <SwiperSlide style={styles}>
+          <General />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <AntiCellulite />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Sports />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Fourhands />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
           <Spanish />
         </SwiperSlide>
         <SwiperSlide style={styles}>
@@ -38,16 +51,7 @@ const Info = () => {
           <Honey />
         </SwiperSlide>
         <SwiperSlide style={styles}>
-          <AntiCellulite />
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
-          <General />
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
           <Children />
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
-          <Sports />
         </SwiperSlide>
       </Swiper>
     </>

@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import link from "../../../assets/images/sports.jpg";
+import Poster from "../../Poster/Poster";
 
 const Sports = () => {
   return (
@@ -13,7 +14,7 @@ const Sports = () => {
         навантажень. Різні техніки, такі як розминання, постукування і
         розтирання, допомагають поліпшити гнучкість та зменшити ризик травм.
       </p>
-      <img src={link} alt="sports massage image" />
+      <Poster link={link} alt="sports massage image" />
       <p>
         Цей вид масажу сприяє зниженню рівня втоми, полегшує м'язові болі і
         допомагає підтримувати оптимальний стан м'язів під час спортивних

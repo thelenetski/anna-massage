@@ -27,6 +27,7 @@ const Info = () => {
         }}
         loop={true}
         modules={[Pagination]}
+        lazy={true}
         className={css.sliderWrap}
       >
         <SwiperSlide style={styles}>

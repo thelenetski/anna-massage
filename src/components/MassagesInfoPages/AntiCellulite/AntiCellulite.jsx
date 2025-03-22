@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import anticellulite from "../../../assets/images/anticellulite.jpg";
+import Poster from "../../Poster/Poster";
 
 const AntiCellulite = () => {
   return (
@@ -11,7 +12,7 @@ const AntiCellulite = () => {
         використовуються інтенсивні розтирання, розминання та натискання, що
         активізують обмін речовин і покращують стан шкіри.
       </p>
-      <img src={anticellulite} alt="anticellulite massage image" />
+      <Poster link={anticellulite} alt={"anticellulite massage image"} />
       <p>
         Цей масаж допомагає зменшити целюліт, підвищити пружність шкіри та
         покращити контури тіла. Перед початком курсу бажано проконсультуватися з

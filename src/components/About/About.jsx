@@ -1,5 +1,6 @@
 import link from "../../assets/cert/1.jpg";
 import link2 from "../../assets/cert/2.jpg";
+import Poster from "../Poster/Poster";
 import css from "./About.module.css";
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
         уваги до свого тіла, і масаж – один із найкращих способів подарувати
         собі цю турботу.
       </p>
-      <img src={link} alt="certificate image" />
+      <Poster link={link} alt="certificate image" />
       <p>
         Якщо ви завітали до мене, це означає, що ви обрали час для себе, для
         свого здоров’я та гармонії. Це найкращий прояв любові до себе, і я
@@ -21,7 +22,7 @@ const About = () => {
         розслабитися й відновити сили, а й створити атмосферу, де ви відчуєте
         себе цінними, спокійними й наповненими енергією.
       </p>
-      <img src={link2} alt="certificate2 image" />
+      <Poster link={link2} alt="certificate2 image" />
       <p>
         Я щиро дякую вам за довіру. Кожен мій клієнт – особливий, і я радію
         можливості зробити ваш день кращим. Чекаю на вас у Aura Balance, де на

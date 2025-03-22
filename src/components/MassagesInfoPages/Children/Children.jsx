@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import link from "../../../assets/images/children.jpg";
+import Poster from "../../Poster/Poster";
 
 const Children = () => {
   return (
@@ -13,7 +14,7 @@ const Children = () => {
         масажиста допомагають зняти напругу та полегшити біль у випадку коліків
         чи м'язових спазмів.
       </p>
-      <img src={link} alt="children massage image" />
+      <Poster link={link} alt="children massage image" />
       <p>
         Цей вид масажу також може використовуватися для профілактики різних
         захворювань, таких як порушення постави чи сколіоз. Дитячий масаж

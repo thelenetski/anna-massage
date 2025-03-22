@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import spanish from "../../../assets/images/spanish.jpg";
+import Poster from "../../Poster/Poster";
 
 const Spanish = () => {
   return (
@@ -10,7 +11,7 @@ const Spanish = () => {
         знімають напругу та наповнюють кожну клітинку енергією… Це не просто
         масаж — це справжній ритуал молодості та гармонії!
       </p>
-      <img src={spanish} alt="spanish massage image" />
+      <Poster link={spanish} alt="spanish massage image" />
       <p>
         Що дарує іспанський масаж обличчя?
         <br />

@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import vacuum from "../../../assets/images/vacuum.jpg";
+import Poster from "../../Poster/Poster";
 
 const Vacuum = () => {
   return (
@@ -11,7 +12,7 @@ const Vacuum = () => {
         або апарата створюється вакуум, який активізує приплив крові, сприяючи
         виведенню токсинів і насиченню тканин киснем.
       </p>
-      <img src={vacuum} alt="vacuum massage image" />
+      <Poster link={vacuum} alt="vacuum massage image" />
       <p>
         Цей вид масажу часто застосовують для боротьби з целюлітом, корекції
         фігури та зняття м'язової напруги. Перед початком курсу варто

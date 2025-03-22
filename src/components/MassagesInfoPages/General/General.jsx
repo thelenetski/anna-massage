@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import link from "../../../assets/images/general.jpg";
+import Poster from "../../Poster/Poster";
 
 const General = () => {
   return (
@@ -13,7 +14,7 @@ const General = () => {
         індивідуальних потреб пацієнта. Класичний масаж допомагає зняти стрес,
         полегшити болі в спині та шиї, а також відновити тонус м'язів.
       </p>
-      <img src={link} alt="general massage image" />
+      <Poster link={link} alt="general massage image" />
       <p>
         Цей вид масажу підходить як для профілактики, так і для лікування
         різноманітних захворювань опорно-рухового апарату. З його допомогою

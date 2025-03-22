@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import honey from "../../../assets/images/honey.jpg";
+import Poster from "../../Poster/Poster";
 
 const Honey = () => {
   return (
@@ -11,7 +12,7 @@ const Honey = () => {
         виконують спеціальні рухи, які покращують кровообіг і сприяють виведенню
         токсинів.
       </p>
-      <img src={honey} alt="honey massage image" />
+      <Poster link={honey} alt="honey massage image" />
       <p>
         Цей вид масажу допомагає зменшити целюліт, підвищити тонус шкіри та
         зміцнити імунітет. Перед процедурою важливо перевірити відсутність

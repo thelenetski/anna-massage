@@ -1,5 +1,6 @@
 import css from "../../Info/Info.module.css";
 import fourhand from "../../../assets/images/fourhand.jpg";
+import Poster from "../../Poster/Poster";
 
 const Fourhands = () => {
   return (
@@ -14,7 +15,7 @@ const Fourhands = () => {
         релаксу. Це не просто масаж – це унікальний досвід, що переносить вас у
         світ абсолютного задоволення та гармонії.
       </p>
-      <img src={fourhand} alt="four hand massage image" />
+      <Poster link={fourhand} alt="four hand massage image" />
       <p>
         Завдяки ефекту «сенсорного перевантаження» тіло швидше звільняється від
         напруги, а розум – від зайвих думок. Ви відчуваєте подвійний вплив:

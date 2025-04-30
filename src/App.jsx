@@ -17,12 +17,15 @@ import { AnimatePresence } from "motion/react";
 import * as motion from "motion/react-client";
 import Reviews from "./components/Reviews/Reviews";
 import About from "./components/About/About";
+import Promo from "./components/Promo/Promo";
+import Promotions from "./components/Promotions/Promotions";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
   const [modalType, setModalType] = useState("");
   const modalRef = useRef(null);
   const priceRef = useRef(null);
+  const promoRef = useRef(null);
 
   const modalHandler = (type) => {
     setModalType(type);
@@ -34,7 +37,8 @@ function App() {
       if (
         modalRef.current &&
         !modalRef.current.contains(event.target) &&
-        !priceRef.current.contains(event.target)
+        !priceRef.current.contains(event.target) &&
+        !promoRef.current.contains(event.target)
       ) {
         setModalActive(false);
       }
@@ -84,6 +88,7 @@ function App() {
           <MdPhone size={20} />
         </a>
       </div>
+      <Promo ref={promoRef} func={modalHandler} />
       <div className="actions bg1">
         <a
           ref={priceRef}
@@ -121,6 +126,7 @@ function App() {
             {modalType === "info" && <Info />}
             {modalType === "reviews" && <Reviews />}
             {modalType === "about" && <About />}
+            {modalType === "promo" && <Promotions />}
             <PiFlowerLotusThin className="flower" />
           </motion.div>
         ) : null}

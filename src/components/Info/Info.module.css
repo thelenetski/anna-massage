@@ -20,3 +20,7 @@
 .massageInfoWrap h4 {
   color: #174e35;
 }
+
+.massageInfoWrap ul {
+  padding-left: 25px;
+}

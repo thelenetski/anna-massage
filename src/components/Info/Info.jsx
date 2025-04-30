@@ -11,6 +11,7 @@ import General from "../MassagesInfoPages/General/General";
 import Children from "../MassagesInfoPages/Children/Children";
 import Sports from "../MassagesInfoPages/Sports/Sports";
 import Fourhands from "../MassagesInfoPages/Fourhands/Fourhands";
+import Breasts from "../MassagesInfoPages/Breasts/Breasts";
 
 const styles = {
   overflowY: "scroll",
@@ -27,7 +28,6 @@ const Info = () => {
         }}
         loop={true}
         modules={[Pagination]}
-        lazy={true}
         className={css.sliderWrap}
       >
         <SwiperSlide style={styles}>
@@ -35,6 +35,9 @@ const Info = () => {
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <AntiCellulite />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Breasts />
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <Sports />

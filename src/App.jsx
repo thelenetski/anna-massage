@@ -53,15 +53,19 @@ function App() {
 
   return (
     <div className="wrapper">
-      <Logo />
-      <h4>
-        Масаж - найкращий прояв любові до себе
-        <div className="hr">
-          <div className="hrLeft"></div>
-          <GiThreeLeaves size={20} />
-          <div className="hrRight"></div>
+      <header className="header">
+        <Logo />
+        <div>
+          <h1>Aura Balance</h1>
+          <h4>Масаж - найкращий прояв любові до себе</h4>
         </div>
-      </h4>
+      </header>
+
+      <div className="hr">
+        <div className="hrLeft"></div>
+        <GiThreeLeaves size={20} />
+        <div className="hrRight"></div>
+      </div>
       <Main />
       <div className="actions bg2">
         <a

@@ -37,6 +37,13 @@ const Price = () => {
           </div>
         </div>
         <div className={css.priceBox}>
+          <p className={css.priceName}>Масаж грудей:</p>
+          <div className={css.prices}>
+            <p>40хв</p>
+            <p>500₴</p>
+          </div>
+        </div>
+        <div className={css.priceBox}>
           <p className={css.priceName}>Масаж у чотири руки:</p>
           <div className={css.prices}>
             <p>1год</p>

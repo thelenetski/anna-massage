@@ -31,3 +31,6 @@ body {
   justify-content: center; */
   margin: 0;
 }
+body.modal-open {
+  overflow: hidden;
+}

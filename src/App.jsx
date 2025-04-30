@@ -55,6 +55,12 @@ function App() {
     };
   }, [modalActive]);
 
+  useEffect(() => {
+    modalActive
+      ? document.body.classList.add("modal-open")
+      : document.body.classList.remove("modal-open");
+  }, [modalActive]);
+
   return (
     <div className="wrapper">
       <header className="header">

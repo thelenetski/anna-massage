@@ -30,6 +30,17 @@ const Promotions = () => {
           </p>
         </div>
       </div>
+      <div className={css.promotion}>
+        <div className={css.promotionTitle}>
+          <h4>Пакет “Турбота про себе” + подарунок</h4>
+        </div>
+        <div className={css.promotionContent}>
+          <p>
+            • Купуй 5 сеансів — і отримай 6-й з 50% знижкою
+            <br />• Купуй 10 сеансів — і 11-й масаж отримуй у подарунок
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

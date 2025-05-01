@@ -1,5 +1,6 @@
 import link from "../../assets/cert/1.jpg";
 import link2 from "../../assets/cert/2.jpg";
+import link3 from "../../assets/cert/3.jpg";
 import Poster from "../Poster/Poster";
 import css from "./About.module.css";
 
@@ -28,6 +29,7 @@ const About = () => {
         можливості зробити ваш день кращим. Чекаю на вас у Aura Balance, де на
         вас чекає тепло, турбота та баланс.
       </p>
+      <Poster link={link3} alt="certificate2 image" />
     </div>
   );
 };

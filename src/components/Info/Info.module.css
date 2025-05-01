@@ -18,9 +18,18 @@
 }
 
 .massageInfoWrap h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
   color: #174e35;
 }
 
 .massageInfoWrap ul {
   padding-left: 25px;
+}
+
+.massageInfoWrap ul li b {
+  color: #174e35;
 }

@@ -19,6 +19,7 @@ import Reviews from "./components/Reviews/Reviews";
 import About from "./components/About/About";
 import Promo from "./components/Promo/Promo";
 import Promotions from "./components/Promotions/Promotions";
+import HrLine from "./components/HrLine/HrLine";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
@@ -70,12 +71,10 @@ function App() {
           <h4>Масаж - найкращий прояв любові до себе</h4>
         </div>
       </header>
-
-      <div className="hr">
-        <div className="hrLeft"></div>
-        <GiThreeLeaves size={20} />
-        <div className="hrRight"></div>
+      <div style={{ width: "100%", margin: "10% 0" }}>
+        <HrLine color={"#ffffff47"} />
       </div>
+
       <Main />
       <div className="actions bg2">
         <a

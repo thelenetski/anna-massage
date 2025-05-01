@@ -57,22 +57,6 @@ a:hover {
   transform: scaleX(1.05);
 }
 
-.hr {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8%;
-  margin: 10% 0;
-}
-
-.hr .hrLeft,
-.hr .hrRight {
-  width: 20%;
-  height: 1px;
-  background-color: #ffffff47;
-}
-
 .actions {
   width: 100%;
   display: flex;

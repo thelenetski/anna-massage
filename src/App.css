@@ -126,6 +126,9 @@ a:hover {
   font-size: 25px;
   margin: 4%;
 }
+.close:hover {
+  cursor: pointer;
+}
 
 .flower {
   position: absolute;

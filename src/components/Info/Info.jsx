@@ -12,6 +12,8 @@ import Children from "../MassagesInfoPages/Children/Children";
 import Sports from "../MassagesInfoPages/Sports/Sports";
 import Fourhands from "../MassagesInfoPages/Fourhands/Fourhands";
 import Breasts from "../MassagesInfoPages/Breasts/Breasts";
+import SixHands from "../MassagesInfoPages/SixHands/SixHands";
+import Hang from "../MassagesInfoPages/Hang/Hang";
 
 const styles = {
   overflowY: "scroll",
@@ -56,6 +58,12 @@ const Info = () => {
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <Children />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <SixHands />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Hang />
         </SwiperSlide>
       </Swiper>
     </>

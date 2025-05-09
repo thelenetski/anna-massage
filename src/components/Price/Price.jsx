@@ -9,6 +9,19 @@ const Price = () => {
       </div> */}
       <div className={css.priceWrap}>
         <div className={css.priceBox}>
+          <p className={css.priceName}>Загальний класичний, вакуумний:</p>
+          <div className={css.prices}>
+            <p>45хв</p>
+            <p>600₴</p>
+            <p>1год</p>
+            <p>700₴</p>
+            <p>1.5год</p>
+            <p>1000₴</p>
+            <p>2год</p>
+            <p>1300₴</p>
+          </div>
+        </div>
+        <div className={css.priceBox}>
           <p className={css.priceName} style={{ marginTop: 0 }}>
             Антицелюлітний, медовий, спортивний:
           </p>
@@ -21,19 +34,6 @@ const Price = () => {
             <p>1050₴</p>
             <p>2год</p>
             <p>1350₴</p>
-          </div>
-        </div>
-        <div className={css.priceBox}>
-          <p className={css.priceName}>Загальний класичний, вакуумний:</p>
-          <div className={css.prices}>
-            <p>45хв</p>
-            <p>600₴</p>
-            <p>1год</p>
-            <p>700₴</p>
-            <p>1.5год</p>
-            <p>1000₴</p>
-            <p>2год</p>
-            <p>1300₴</p>
           </div>
         </div>
         <div className={css.priceBox}>

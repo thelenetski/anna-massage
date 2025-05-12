@@ -41,6 +41,11 @@ const Promotions = () => {
           </p>
         </div>
       </div>
+      <div className={css.promotion}>
+        <div className={css.promotionContent}>
+          <p>* знижки не діють при замовлені масаж надім</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -33,7 +33,7 @@ function Main() {
         <span>Viber</span>
       </a>
       <a
-        href="https://maps.app.goo.gl/udSc34exGSaXLemo8?g_st=com.google.maps.preview.copy"
+        href="https://maps.app.goo.gl/up6xdcxEVKkCkTLA8"
         className={css.linkWrap}
         target="_blank"
       >

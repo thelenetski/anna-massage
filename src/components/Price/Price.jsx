@@ -13,11 +13,11 @@ const Price = () => {
           <div className={css.prices}>
             <p>45хв</p>
             <p>600₴</p>
-            <p>1год</p>
+            <p>60хв</p>
             <p>700₴</p>
-            <p>1.5год</p>
+            <p>90хв</p>
             <p>1000₴</p>
-            <p>2год</p>
+            <p>120хв</p>
             <p>1300₴</p>
           </div>
         </div>
@@ -28,12 +28,30 @@ const Price = () => {
           <div className={css.prices}>
             <p>45хв</p>
             <p>650₴</p>
-            <p>1год</p>
+            <p>60хв</p>
             <p>750₴</p>
-            <p>1.5год</p>
+            <p>90хв</p>
             <p>1050₴</p>
-            <p>2год</p>
+            <p>120хв</p>
             <p>1350₴</p>
+          </div>
+        </div>
+        <div className={css.priceBox}>
+          <p className={css.priceName}>Сенсуальний релакс:</p>
+          <div className={css.prices}>
+            <p>60хв</p>
+            <p>700₴</p>
+            <p>90хв</p>
+            <p>1000₴</p>
+          </div>
+        </div>
+        <div className={css.priceBox}>
+          <p className={css.priceName}>Арома магія:</p>
+          <div className={css.prices}>
+            <p>60хв</p>
+            <p>800₴</p>
+            <p>90хв</p>
+            <p>1100₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
@@ -57,48 +75,61 @@ const Price = () => {
           <div className={css.prices}>
             <p>30хв</p>
             <p>400₴</p>
-            <p>1год</p>
+            <p>60хв</p>
             <p>750₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
           <p className={css.priceName}>Масаж у чотири руки:</p>
           <div className={css.prices}>
-            <p>1год</p>
+            <p>60хв</p>
             <p>1500₴</p>
+            <p>90хв</p>
+            <p>2100₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
           <p className={css.priceName}>Масаж у чотири руки під живу музику:</p>
           <div className={css.prices}>
-            <p>1год</p>
+            <p>60хв</p>
             <p>2800₴</p>
-            <p>1.5год</p>
+            <p>90хв</p>
             <p>3400₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
           <p className={css.priceName}>Масаж у шість рук:</p>
           <div className={css.prices}>
-            <p>1год</p>
+            <p>60хв</p>
             <p>2800₴</p>
-            <p>1.5год</p>
+            <p>90хв</p>
             <p>3400₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
           <p className={css.priceName}>Парний масаж:</p>
           <div className={css.prices}>
-            <p>1год</p>
+            <p>60хв</p>
             <p>1500₴</p>
+            <p>90хв</p>
+            <p>2100₴</p>
+          </div>
+        </div>
+        <div className={css.priceBox}>
+          <p className={css.priceName}>Парний арома масаж:</p>
+          <div className={css.prices}>
+            <p>60хв</p>
+            <p>1600₴</p>
+            <p>90хв</p>
+            <p>2300₴</p>
           </div>
         </div>
         <div className={css.priceBox}>
           <p className={css.priceName}>Масаж для трьох:</p>
           <div className={css.prices}>
-            <p>1год</p>
+            <p>60хв</p>
             <p>2800₴</p>
-            <p>1.5год</p>
+            <p>90хв</p>
             <p>3400₴</p>
           </div>
         </div>

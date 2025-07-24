@@ -7,7 +7,6 @@ import clsx from "clsx";
 import Price from "./components/Price/Price";
 import Logo from "./components/Logo/Logo";
 import Main from "./components/Main/Main";
-import { GiThreeLeaves } from "react-icons/gi";
 import { PiFlowerLotusThin } from "react-icons/pi";
 import { TiInfoLargeOutline } from "react-icons/ti";
 import { BsChatSquareHeart } from "react-icons/bs";

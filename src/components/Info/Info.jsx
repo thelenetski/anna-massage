@@ -14,6 +14,7 @@ import Fourhands from "../MassagesInfoPages/Fourhands/Fourhands";
 import Breasts from "../MassagesInfoPages/Breasts/Breasts";
 import SixHands from "../MassagesInfoPages/SixHands/SixHands";
 import Hang from "../MassagesInfoPages/Hang/Hang";
+import Sensualnyi from "../MassagesInfoPages/Sensualnyi/Sensualnyi";
 
 const styles = {
   overflowY: "scroll",
@@ -37,6 +38,9 @@ const Info = () => {
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <AntiCellulite />
+        </SwiperSlide>
+        <SwiperSlide style={styles}>
+          <Sensualnyi />
         </SwiperSlide>
         <SwiperSlide style={styles}>
           <Breasts />

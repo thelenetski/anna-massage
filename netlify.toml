@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://aura-balance-gray.vercel.app/:splat"
+  status = 301
